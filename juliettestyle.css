@@ -1,0 +1,236 @@
+body {   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    background-color: black;
+}
+
+.elemento-con-fondo {
+  position: relative; 
+  /* Importante para posicionar el pseudoelemento */
+  /* overflow: hidden;  */
+  /* Para que la rotación no se salga de los bordes */
+  margin: 0;
+}
+
+.elemento-con-fondo::before {
+  content: "";
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-image: url('img/back/phill-brown-usszqSIBcTc-unsplash.jpg'); 
+  /* 1. Añade la imagen de fondo aquí */
+  background-size: cover; 
+  /* Ajusta el tamaño según sea necesario */
+  background-position: center;
+  /* transform: rotate(180deg);  */
+  /* 2. Rota la imagen */
+  z-index: -1; 
+  /* Asegura que la imagen esté detrás del contenido */
+}
+
+nav {
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(22, 22, 22, 0.8)); */
+    background-color: rgb(33, 33, 33);
+    padding-bottom: 30px;
+    height: 25px;
+}
+
+ul {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+ul li {
+    display: inline;
+}
+
+a:visited {
+    color: white;
+}
+
+.colortext {
+    color: aliceblue;
+}
+
+.espacios {
+    padding: 50px;
+} 
+
+main {
+    border-radius: 20px;
+    background: linear-gradient(to left, rgba(220, 0, 0, 0), rgba(93, 0, 0, 0.8));
+    text-align: left;
+    /* background-color: aquamarine; */
+    display: inline-block;
+    width: calc(50% - 10px);
+    height: 70%;
+    overflow: auto;
+}
+
+aside {
+    /* background-color: blueviolet; */
+    display: inline-block;
+    width: calc(49% - 10px);
+    height: 70%;
+    /* overflow-y: visible; */
+}
+
+#julititle {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    padding-left: 20px;
+}    
+
+#imagejuliete {
+    width: 100%;
+}    
+
+#contingutrol {
+    /* background-color: aqua; */
+    float: left;
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    /* text-align: center; */
+    
+}
+
+#contingutdificult {
+    /* background-color: blueviolet; */
+    float: left;
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    /* text-align: center; */
+    
+}
+
+.roles {
+    margin-top: 10px;
+    background-color: rgb(255, 215, 0);
+    /* border:1px solid rgb(255, 215, 0); */
+    text-shadow: 1px 1px 3px white;
+    float: left;
+    width: 12%;
+    height: 10px;
+    padding: 8px;
+    padding-right: 22px;
+    margin-right: 0px;
+
+    clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
+    
+
+}
+
+.rolesempty {
+    margin-top: 10px;
+    /* background-color: rgb(255, 215, 0); */
+    background: rgba(255, 217, 0, 0.205);
+    float: left;
+    width: 12%;
+    height: 10px;
+    padding: 8px;
+    padding-right: 22px;
+    margin-right: 0px;
+
+    /* https://bennettfeely.com/clippy/ */
+    clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
+}
+
+.star {
+    margin-top: 12px;
+    background-color: gold;
+    float: left;
+    width: 6%;
+    height: 10px;
+    padding: 5px;
+    margin-right: 5px;
+
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 
+    21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.starempty {
+    margin-top: 12px;
+    float: left;
+    width: 6%;
+    height: 10px;
+    padding: 5px;
+    margin-right: 5px;
+    
+    background: rgb(255, 255, 255, 0.2); /* Color interior de la estrella (el "vacío") */
+    /* Definir la forma de estrella con clip-path */
+    clip-path: polygon(
+    50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%,
+    50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%
+  );
+}
+
+.espaciostitulos {
+    font-size: small;
+    font-weight: lighter;
+    font-style: italic;
+    padding-left: 50px;
+}
+
+hr {
+    border: 1px solid rgb(126, 0, 0);
+}
+
+table {
+    margin: 0 auto;
+}
+
+#contingutskills {
+    /* background-color: aqua; */
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    width: 370px;
+}
+
+#contingutvideos {
+    /* background-color: blueviolet; */
+    border-radius: 20px;
+    /* background: linear-gradient(to right, rgba(220, 0, 0, 0), rgba(93, 0, 0, 0.8)); */
+    display: inline-block;
+    height: 300px;
+}
+
+/* .espacios:has(video) {
+    border: 1px solid black;
+} */
+
+video {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.imgskills {
+    width: 75px;
+}
+
+.skills {
+    float: left;
+    margin-right: 15px;
+    padding-top: 30px;
+
+    text-align: center;
+    color: aliceblue;
+}
+
+footer {
+    height: 20px;
+    padding-bottom: 100px;
+    background-color: rgb(32, 32, 32);
+}
+
+
+
