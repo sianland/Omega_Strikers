@@ -1,0 +1,149 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-image: url("../img/fondowindows2.png");
+    background-size: cover;
+    
+    /* background-color: rgb(40, 40, 40); */
+}
+a {text-decoration: none;}
+.links a:hover {
+    padding: 5px;
+    background-color: hsl(239, 100%, 61%);
+    color: #d5d5d5;
+    border: 1px dashed white
+}
+
+/* ------------------------logo-------------------------------- */
+#logo {
+    display: flex;
+    justify-content: left;
+}
+#logo img {width: 250px;}
+
+iframe, embed {padding: 20px;}
+
+a[href="#lista_personajes"] {color: red;}
+
+
+/*----------------- welcome ----------------- */
+.frostfire::before {
+    content: '💥 '; /* Un emoji o símbolo */
+    font-size: 1em; /* Ajusta el tamaño */
+}
+.embermonarchs::before {
+    content: '☔ '; /* Un emoji o símbolo */
+    font-size: 1em; /* Ajusta el tamaño */
+}
+.maelstrom::before {
+    content: '🌀 '; /* Un emoji o símbolo */
+    font-size: 1em; /* Ajusta el tamaño */
+}
+#welcomenav {
+    display: flex;
+    justify-content: center;
+}
+
+nav .proleagueteams{
+    letter-spacing: 2px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 150px;
+    background-color: black;
+    color: white;
+}
+
+.welcome, .textwelcome {
+    width: 500px;
+    padding-left: 50px;
+    vertical-align: top;
+    text-align: left;
+}
+.textwelcome p:first-child {
+    font-size: large;
+}
+
+.welcome {
+    padding-top: 10px;
+    height: 20px;
+}
+
+.titleteams {
+    font-weight: 900;
+    margin: 5px;
+}
+.infoteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageteams {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.imageteams div {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imageteams div a {
+    text-align: center;
+    width: 100%;
+}
+.imageteams div:hover {
+    padding: 5px;
+    background-color: #e6e6e6;
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: inset 1px 1px 0 1px rgba(105, 105, 105, 0.7);
+}
+
+li {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 5px;
+}
+/* -----------------------Parte de videos y imagesmap-------------------------- */
+section {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+#video1 tr:first-child td p{
+   background-color: hsl(239, 100%, 54%);
+}
+
+#video1 tr:first-child td p{
+   margin: 2px;
+   color:#d5d5d5;
+   padding-left: 20px;
+}
+
+#video1 tr:nth-child(2) td {
+   padding: 10px;
+}
+
+video {
+    padding: 3px;
+}
+
+#imagemap tr img {
+    padding: 3px;
+}
+#imagemap tr:first-child td p {
+    padding-left: 20px;
+}
+
+#imagemap tr:nth-child(2) td {
+    padding: 10px;
+}
+
+
+

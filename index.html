@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omega Strikers</title>
     <link rel="shortcut icon" href="img/Emoticons/AiMiTank-512x512.png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/borde_windows.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -17,13 +20,13 @@
             <p id="barratitle"> Omega Strikers Links</p>
             <img width="20px" src="img/Emoticons/AiMiTank-512x512.png" alt="">
         </div>
-        <div id="headersecondline">
-            <a href="https://omegastrikers.wiki.gg/">Wiki</a>
-            <a href="https://tacticstrikers.krgm4d.dev/">Tactics Board</a>
-            <a href="https://stats.clarioncorp.net/">Clarioncorp Stats</a>
+        <div id="headersecondline" class="links">
+            <a target="_blank" href="https://omegastrikers.wiki.gg/">Wiki</a>
+            <a target="_blank" href="https://tacticstrikers.krgm4d.dev/">Tactics Board</a>
+            <a target="_blank" href="https://stats.clarioncorp.net/">Clarioncorp Stats</a>
             <!-- <a href="https://stats.omegastrikers.gg/">Omegastrikers.gg Stats</a> -->
             <!-- <a href="https://drafter.bestieinslot.com/">BIS Drafting</a> -->
-            <a href="https://omega-analyzer.com/">Omega Analyzer</a>
+            <a target="_blank" href="https://omega-analyzer.com/">Omega Analyzer</a>
         </div>
     </header>
     <div id="content">
@@ -43,7 +46,7 @@
                 <tr>
                     <td>
                         <ul><h3 class="titleteams frostfire">Frostfire</h3><hr>
-                            <li><a href="#juliete">Juliete</a></li>
+                            <li><a href="juliette.html">Juliete</a></li>
                             <li><a href="#estelle">Estelle</a></li>
                             <li><a href="#dubu">Dubu</a></li>
                         </ul></td>
@@ -58,10 +61,10 @@
                         <hr>
                         <div class="imageteams">
                             <div class="bordefondowindows">
-                                <a href="">
+                                <a href="juliette.html">
                                     <img width="70px" src="img/Character Select/CloseUp_Juliette.png" alt="">
                                 </a>
-                                <a href="">Juliette</a>
+                                <a href="juliette.html">Juliette</a>
                             </div>
                             <div class="bordefondowindows">
                                 <a href="">
@@ -108,7 +111,7 @@
                 <tr>
                     <td>
                         <div class="bordefondowindows-invertido">
-                            <embed width="500" src="https://www.youtube.com/embed/HjOXlvs87Lo?list=RDHjOXlvs87Lo" title="Omega Strikers Cinematic Opening Music Video by Studio TRIGGER - Nintendo Switch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></embed>
+                            <embed width="500" height="300" src="https://www.youtube.com/embed/HjOXlvs87Lo?list=RDHjOXlvs87Lo" title="Omega Strikers Cinematic Opening Music Video by Studio TRIGGER - Nintendo Switch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></embed>
                             <!-- <video controls poster="img/Screenshot 3.png" width="800"></video> -->
                         </div>
                     </td>
@@ -124,19 +127,26 @@
                 <tr>
                     <td>
                         <div class="bordefondowindows-invertido">
-                            <img width="950" src="img/Character Lineup.png" alt="omegastrikerspjs" usemap="#strikers">
-                                <map name="strikers">
-                                    <area title="Juliette" shape="poly" coords="1, 1, 170, 1, 1, 600, 10, 600" href="https://omegastrikers.wiki.gg/wiki/Juliette">
-                                    <area title="Estelle" shape="poly" coords="450, 1, 600, 1, 400, 600, 300, 600" href="https://omegastrikers.wiki.gg/wiki/Estelle">
-                                    <area title="Dubu" shape="poly" coords="750, 1, 880, 1, 700, 600, 600, 600" href="https://omegastrikers.wiki.gg/wiki/Dubu">
-                                </map>
+                            <img src="img/Character Lineup_950.jpg" usemap="#image-map">
+                            <map name="image-map">
+                                <area target="_self" alt="juliette" title="juliette" href="juliette.html" coords="154,3,66,3,0,242,0,532,8,531" shape="poly">
+                                <area target="_blank" alt="luna" title="luna" href="html" coords="162,3,21,530,108,529,252,0" shape="poly">
+                                <area target="_blank" alt="kai" title="kai" href="html" coords="344,2,258,1,113,530,201,530" shape="poly">
+                                <area target="_blank" alt="juno" title="juno" href="html" coords="437,2,351,2,208,530,299,531" shape="poly">
+                                <area target="_blank" alt="estelle" title="estelle" href="html" coords="534,2,447,1,306,531,393,531" shape="poly">
+                                <area target="_blank" alt="x" title="x" href="html" coords="631,2,541,3,399,531,488,531" shape="poly">
+                                <area target="_blank" alt="era" title="era" href="html" coords="727,1,638,2,495,532,582,532" shape="poly">
+                                <area target="_blank" alt="dubu" title="dubu" href="html" coords="824,0,732,2,591,532,679,532" shape="poly">
+                                <area target="_blank" alt="atlas" title="atlas" href="html" coords="918,1,829,1,686,530,776,533" shape="poly">
+                                <area target="_blank" alt="drakar" title="drakar" href="html" coords="948,3,924,2,781,531,871,531,949,236" shape="poly">
+                            </map>
                         </div>
                     </td>
                 </tr>
             </table>
         </section>
 
-        <article>
+        <article style="display: none;">
             <div id="articulopjs">
                 <table id="listapjs" class="bordefondowindows">
                     <tr>
@@ -403,10 +413,21 @@
             </div>
         </article>
 
-        <footer>
-            <div id="formulario">
-                <p><a href="formulario.html">Ingresar formulario</a></p>
+        <footer class="bordefondowindows">
+            <div id="footerfirstline">
+                <img width="20px" src="img/Emoticons/AiMiTank-512x512.png" alt="">
+                <p id="titlefooter"> Omega Strikers Links</p>
+                <img width="20px" src="img/Emoticons/AiMiTank-512x512.png" alt="">
             </div>
+            <div id="footersecondline" class="links">
+                <a target="_blank" href="https://omegastrikers.wiki.gg/">Wiki</a>
+                <a target="_blank" href="https://tacticstrikers.krgm4d.dev/">Tactics Board</a>
+                <a target="_blank" href="https://stats.clarioncorp.net/">Clarioncorp Stats</a>
+                <!-- <a href="https://stats.omegastrikers.gg/">Omegastrikers.gg Stats</a> -->
+                <!-- <a href="https://drafter.bestieinslot.com/">BIS Drafting</a> -->
+                <a target="_blank" href="https://omega-analyzer.com/">Omega Analyzer</a>
+            </div>
+            <div id="footerthirdline">&#169 Omega Strikers fan page 2026</div>
         </footer>
     </div>
 </body>

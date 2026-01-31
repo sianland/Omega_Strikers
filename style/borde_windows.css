@@ -1,0 +1,33 @@
+.bordefondowindows {
+    background-color: #d5d5d5;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: inset 1px 1px 0 1px rgba(255, 255, 255, 0.7);
+}
+.bordefondowindows-invertido {
+    background-color: #e6e6e6;
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: inset 1px 1px 0 1px rgba(105, 105, 105, 0.7);
+}
+.bordehover a:hover {
+    background-color: #e6e6e6;
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: inset 1px 1px 0 1px rgba(105, 105, 105, 0.7);
+}
+
+.bordefondowindows-interior {
+    background-color: #d5d5d5;
+    border-right: 1.5px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0.7px 0.7px 0 0.7px rgba(255, 255, 255, 0.7);
+}
+.bordefondowindows-interior-invertido {
+    background-color: #e6e6e6;
+    border-top: 1.5px solid rgba(0, 0, 0, 0.3);
+    border-left: 1.5px solid rgba(0, 0, 0, 0.3);
+    border-right: 1.5px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0.7px 0.7px 0 0.7px rgba(105, 105, 105, 0.7);
+}

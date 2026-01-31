@@ -1,0 +1,135 @@
+article {margin-top: 50px;}
+td[colspan="3"] p {
+    height: 600px;
+    padding: 30px;
+}
+.volver {
+    font-size: medium;
+}
+p > a.volver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------------Estilos de las tablas----------------------- */
+#strikertitle {
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#strikers caption {
+    height: 120px;
+    padding: 5px;
+}
+caption .pj {
+    color: lightgray;
+    background-color: #979797;
+    display: flex;
+    justify-content: space-between;
+}
+.menucaption {
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}
+.menucaption a {border: 1px dashed transparent;}
+/* .menucaption a:hover {
+    background-color: hsl(239, 100%, 61%);
+    color: #d5d5d5;
+    border: 1px dashed white
+} */
+.menucaption a::first-letter{text-decoration: underline;}
+#bloqueflechas {
+    font-size: 11pt;
+    padding-top: 3px;
+    padding-left: 2px;
+    padding-bottom: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.textodesactivado {
+    color: darkgray;
+    text-shadow: 0.8px 0.8px 0px rgb(255, 255, 255);
+}
+#barras {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+}
+.barra {
+    width: 2px;
+    height: 50px;
+}
+.flecha {
+    font-size: 15pt;
+}
+
+#strikers table caption h3, #strikers table caption p {
+    font-size: larger;
+    margin: 3px;
+    padding-left: 15px;
+}
+#strikers table caption p a {padding: 2px;}
+#strikers div table tr td[rowspan="2"] {text-align: center;}
+#strikers div table tr:nth-child(3) {font-size: small;}
+/* #strikers tr:nth-child(3) td:last-child {height: 250px;} */
+
+/* -------------------------Strikers-------------------------- */
+#articulopjs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#strikers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#juliette {width: 800px;}
+#estelle {width: 800px;}
+#dubu {width: 800px;}
+#kai {width: 800px;}
+.skillstext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skillstext p{
+    text-align: center;
+    margin: 2px;
+}
+.skillstext p:nth-child(2){margin: 2px;}
+.columnaimagen {
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+}
+#imagejuliette {
+    background-image: url("../img/Character Art - Transparent Backgrounds/Juliette.png");
+}
+#imageestelle {
+    background-image: url("../img/Character Art - Transparent Backgrounds/Estelle.png");
+}
+#imagedubu {
+    background-image: url("../img/Character Art - Transparent Backgrounds/Dubu.png");
+    background-position: 65% 0%;
+}
+#imagekai {
+    background-image: url("../img/Character Art - Transparent Backgrounds/Kai.png");
+    background-position: 70% 0%;
+}
+#formulario {margin-left: 50px;}
+

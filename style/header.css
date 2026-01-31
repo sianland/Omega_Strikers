@@ -1,0 +1,39 @@
+/* -------------------header------------------ */
+header a {
+    padding: 5px;
+    border: 1px dashed transparent;
+    /* color: black; */
+}
+header a:visited {color: hsl(239, 100%, 54%);}
+#headerfirstline {
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+#headersecondline {
+    padding-left: 38px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+#headersecondline a {margin: 5px;}
+#headersecondline a::first-letter {text-decoration: underline;}
+#barratitle {
+    color: #d5d5d5;
+    background-color: #979797;
+    width: 100%;
+    height: 25px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 5px;
+    gap: 20px;
+
+}
+#barratitle::first-letter {text-decoration: underline;}
